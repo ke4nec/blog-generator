@@ -2,12 +2,12 @@
 
 
 [[projects]]
-  digest = "1:32fa3ff538ddd0b8312f56bcb15ef3340eee00891cd9c76464746b7cebcac210"
+  digest = "1:9a88883f474d09f1da61894cd8115c7f33988d6941e4f6236324c777aaff8f2c"
   name = "github.com/PuerkitoBio/goquery"
   packages = ["."]
   pruneopts = ""
-  revision = "e1271ee34c6a305e38566ecd27ae374944907ee9"
-  version = "v1.1.0"
+  revision = "dc2ec5c7ca4d9aae063b79b9f581dd3ea6afd2b2"
+  version = "v1.4.1"
 
 [[projects]]
   digest = "1:055c07e4af5ddccc93ad394e04e85ca76c3cb2e067b18b97ac3ffd49cb04a339"
@@ -49,20 +49,20 @@
   version = "v0.5.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:8012998ddb3eed9cc0a3b2512d1f37d0947fd604868049cc698d9dc6ea1bd46c"
+  digest = "1:e3726ad6f38f710e84c8dcd0e830014de6eaeea81f28d91ae898afecc078479a"
   name = "github.com/andybalholm/cascadia"
   packages = ["."]
   pruneopts = ""
-  revision = "349dd0209470eabd9514242c688c403c0926d266"
+  revision = "901648c87902174f774fac311d7f176f8647bdaa"
+  version = "v1.0.0"
 
 [[projects]]
-  digest = "1:19efac7a8b841a06dc555f64bb39546a997266a84dedcd5614b334f0b875ec4a"
+  branch = "master"
+  digest = "1:2a42e33ccf17b837092b1363aaf455578bc28cc4a413f7780e2983cd535b8f93"
   name = "github.com/beevik/etree"
   packages = ["."]
   pruneopts = ""
-  revision = "abae5fc32af8862e420d52e686a7e6ec14111685"
-  version = "v0"
+  revision = "f2d93441e64237d24d3ea1091f8a20762026b8c0"
 
 [[projects]]
   branch = "master"
@@ -84,37 +84,60 @@
   version = "v1.1.6"
 
 [[projects]]
-  digest = "1:a2ea59f1fcf68c565be8d30c3a43503218603a053f7a98b77b16f3a9cfb02f61"
+  digest = "1:2761e287c811d0948d47d0252b82281eca3801eb3c9d5f9530956643d5b9f430"
   name = "github.com/russross/blackfriday"
   packages = ["."]
   pruneopts = ""
-  revision = "0b647d0506a698cca42caca173e55559b12a69f2"
-  version = "v1.4"
+  revision = "05f3235734ad95d0016f6a23902f06461fcf567a"
+  version = "v1.5.2"
 
 [[projects]]
   branch = "master"
-  digest = "1:b73d592f16b18c3a7e20abdf905c5492f355b825968217c002b2d8bc6ac7b258"
-  name = "github.com/shurcooL/sanitized_anchor_name"
+  digest = "1:2572a527898d3259bef02863f0c45a8500eed4b263daae03028693e36a66441e"
+  name = "github.com/sourcegraph/annotate"
   packages = ["."]
   pruneopts = ""
-  revision = "541ff5ee47f1dddf6a5281af78307d921524bcb5"
+  revision = "f4cad6c6324d3f584e1743d8b3e0e017a5f3a636"
 
 [[projects]]
-  digest = "1:4d31b91f709c22dd8016ebf6c4b82dfa9457b2d08d5b41af3893a13f297ad99f"
+  branch = "master"
+  digest = "1:b2d735650965b30a58c303473b9ffb68f580674ddb06866848472d547f962b8f"
+  name = "github.com/sourcegraph/syntaxhighlight"
+  packages = ["."]
+  pruneopts = ""
+  revision = "bd320f5d308e1a3c4314c678d8227a0d72574ae7"
+
+[[projects]]
+  branch = "issue_5_fileconfig"
+  digest = "1:7d45b58820816b9f2b5a526c35bfe263b2aa36e0ce09205afbcfa942608fcf7c"
+  name = "github.com/zupzup/blog-generator"
+  packages = [
+    "cli",
+    "config",
+    "datasource",
+    "generator",
+  ]
+  pruneopts = ""
+  revision = "171527d83ac354145e2213ef9adee11d6f3215b2"
+
+[[projects]]
+  branch = "master"
+  digest = "1:3b86e1cf4059ba6c2cf189f60655a16a8e32d221ed23c4137ac6b2adeaeccc52"
   name = "golang.org/x/net"
   packages = [
     "html",
     "html/atom",
   ]
   pruneopts = ""
-  revision = "59a0b19b5533c7977ddeb86b017bf507ed407b12"
+  revision = "03003ca0c849e57b6ea29a4bab8d3cb6e4d568fe"
 
 [[projects]]
-  digest = "1:a3a9e86d4cd7b56a405875f475a6bb29f4614692fddf33e10eca5c839250b49e"
+  digest = "1:f0620375dd1f6251d9973b5f2596228cc8042e887cd7f827e4220bc1ce8c30e2"
   name = "gopkg.in/yaml.v2"
   packages = ["."]
   pruneopts = ""
-  revision = "cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b"
+  revision = "5420a8b6744d3b0345ab293f6fcba19c978f1183"
+  version = "v2.2.1"
 
 [solve-meta]
   analyzer-name = "dep"
@@ -126,6 +149,10 @@
     "github.com/alecthomas/chroma/styles",
     "github.com/beevik/etree",
     "github.com/russross/blackfriday",
+    "github.com/zupzup/blog-generator/cli",
+    "github.com/zupzup/blog-generator/config",
+    "github.com/zupzup/blog-generator/datasource",
+    "github.com/zupzup/blog-generator/generator",
     "gopkg.in/yaml.v2",
   ]
   solver-name = "gps-cdcl"
